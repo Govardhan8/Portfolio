@@ -6,12 +6,14 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-primary h-screen w-screen">
-      <Intro />
-      <Skillset />
-      <Projects />
-      <Contact />
-      <Footer />
+    <div className="flex justify-center bg-primary h-screen w-screen p-4 text-white">
+      <div className="flex flex-col w-9/12">
+        <Intro />
+        <Skillset />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
