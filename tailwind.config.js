@@ -8,7 +8,7 @@ export default {
       },
       backgroundImage: {
         primary:
-          "radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(82,81,93,1) 0%, rgba(71,74,83,1) 100%)",
+          "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,60,62,1) 0%, rgba(0,0,0,1) 0%, rgba(75,72,72,0.7959558823529411) 100%)",
       },
       borderRadius: {
         circle: "50%",
