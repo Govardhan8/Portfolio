@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="flex justify-center bg-primary h-full w-full p-4 text-white ">
+    <div className="flex justify-center bg-primary min-h-screen min-w-screen p-4 text-white ">
       <div className="flex flex-col w-9/12">
         <Intro />
         <Skillset />
