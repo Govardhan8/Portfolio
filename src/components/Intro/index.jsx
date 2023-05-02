@@ -7,11 +7,13 @@ const index = () => {
   return (
     <section>
       <article className="flex flex-col md:flex-row md:flex-row-reverse">
-        <img
-          src={mypic}
-          alt="display pic"
-          className="w-[320px] md:w-4/12 aspect-square object-contain md:rounded-3xl"
-        />
+        <div className="flex w-full justify-center">
+          <img
+            src={mypic}
+            alt="display pic"
+            className="w-full md:min-w-[320px] md:w-4/12 aspect-square object-contain md:rounded-3xl"
+          />
+        </div>
         <Info />
       </article>
       <Divider />
